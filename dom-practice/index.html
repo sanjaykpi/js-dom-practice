@@ -5,18 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>dom practice</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&display=swap'); 
+    <link rel="stylesheet" href="main.css">
+    <!-- <style>
       
         h2{
             color: red; 
-            font-family: 'Alumni Sans Collegiate One', sans-serif;
         }
         
-    </style>
+    </style> -->
 </head>
 <body>
-    <!-- dom Id -->
+     <!-- dom Id
 
     <h2>java script Id method</h2>
 
@@ -24,14 +23,35 @@
 
     <p id="demo"></p><hr>
 
-    <!-- dom class -->
+     dom class 
 
-    <h2>java script class method</h2>
+     <h2>java script class method</h2>
 
     <div class="phone">samaung</div>
 
-    <div class="phone">vivo</div><hr>
+    <div class="phone">vivo</div><hr>  -->
 
-    <script src="script.js"></script>
+    <form action="">
+        <fieldset>
+            <legend>detail</legend>
+
+            <label for="" class="fname">FIRST NAME</label>
+            <input type="text"  id="name" placeholder="enter your first name" required><br><br>
+
+            <label for="" class="lname" >LAST NAME</label>
+            <input type="text" id="lname" placeholder="enter your last name" required><br><br>
+
+            <label for="" class="password" >PASSWORD</label>
+            <input type="password" id="password" placeholder="enter your password" required oninput="check()"><br><br>
+
+            <label for="" class="conform-password">CONFORM-PASSWORD</label>
+            <input type="password"  id="conform-password" placeholder="enter your conform password" required oninput="check()"><span id="error"></span><br><br>
+
+            <button type="submit">submit</button>
+        </fieldset>
+    </form>
+
+    <script src="script.js"></script> 
 </body>
 </html>
+ 
