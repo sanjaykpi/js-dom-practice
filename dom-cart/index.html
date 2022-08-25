@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom cart</title>
+    <style>
+        button{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <table border="1">
+            <thead>
+             <tr>
+                <th>NAME</th>
+                <th>UNIT PRICE</th>
+                <th>QUENTITY</th>
+                <th>ACTION</th>
+                <th>PRICE</th>
+             </tr>
+            </thead>
+            <tbody>
+                <td>HEADPHONE</td>
+                <td id="unitprice">250</td>
+                <td><input type="number" min="1" value="1" id="quentity"></td>
+                <td><button id="trigger">check</button></td>
+                <td id="price"></td>
+            </tbody>
+            <tbody>
+                <td>MOBILE</td>
+                <td>10,000</td>
+                <td><input type="number" value="1"></td>
+                <td><button>check</button></td>
+                <td></td>
+            </tbody>
+            <tbody>
+                <td>LABTOP</td>
+                <td>70,000</td>
+                <td><input type="number" value="1"></td>
+                <td><button>check</button></td>
+                <td></td>
+            </tbody>
+        </table>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
